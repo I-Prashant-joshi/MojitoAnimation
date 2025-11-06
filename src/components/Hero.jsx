@@ -60,6 +60,7 @@ const Hero = () => {
 		end: endValue,
 		scrub: true,
 		pin: true,
+		// markers:true
 	 },
 	});
 	
@@ -87,7 +88,6 @@ const Hero = () => {
 		/>
 		
 		<div className="body">
-		 {/* <img src="/images/arrow.png" alt="arrow" className="arrow" /> */}
 		 
 		 <div className="content">
 			<div className="space-y-5 hidden md:block">
@@ -109,7 +109,7 @@ const Hero = () => {
 		</div>
 	 </section>
 	 
-	 <div className="video absolute inset-0">
+	 <div className="video">
 		<video
 		 ref={videoRef}
 		 muted
